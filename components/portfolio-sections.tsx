@@ -199,11 +199,11 @@ export function ContactSection() {
         <div className="contact-layout">
           <div className="contact-details">
             <p className="contact-detail-label">DIRECT CONTACT</p>
-            <div className="contact-detail"><span>Email</span><strong>[ADD EMAIL]</strong></div>
-            <div className="contact-detail"><span>Phone</span><strong>[ADD PHONE]</strong></div>
+            <div className="contact-detail"><span>Email</span><strong><a href="mailto:s4sajidkhan112@gmail.com">s4sajidkhan112@gmail.com</a><br /><a href="mailto:talktosajid939@gmail.com">talktosajid939@gmail.com</a></strong></div>
+            <div className="contact-detail"><span>Phone</span><strong><a href="tel:+923039601939">03039601939</a><br /><a href="tel:+923098530679">03098530679</a></strong></div>
             <div className="contact-detail"><span>LinkedIn</span><strong>[ADD LINKEDIN URL]</strong></div>
             <div className="contact-detail"><span>GitHub</span><strong>[ADD GITHUB URL]</strong></div>
-            <div className="contact-placeholder-note">Replace these placeholders with your public contact links before launch.</div>
+            <div className="contact-placeholder-note">Add your LinkedIn and GitHub profile URLs and resume before launch.</div>
             <div className="resume-link"><span>RESUME</span><strong>[RESUME PLACEHOLDER]</strong></div>
           </div>
           <ContactForm />
